@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import { RevealJS } from '@gregcello/revealjs-react'
+import { HighlightPlugin } from '@gregcello/revealjs-react'
+import Welcome from './topics/welcome/welcome';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{width: '100%', height:'100vh'}}>
+    {/* <div>你好！</div> */}
+        <RevealJS
+        // parallaxBackgroundSize='1920px 1080px'
+          plugins={[ HighlightPlugin ]}
+          >
+          <Welcome />
+        </RevealJS>
     </div>
   );
 }
