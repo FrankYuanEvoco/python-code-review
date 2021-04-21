@@ -8,9 +8,6 @@ export default function Welcome(props) {
     <Slide>
       <H1>Git, Code Style and Code Review</H1>
       <H5>Yufan Yuan | Orka</H5>
-      <data-trim><code>
-        import pandas as pd
-      </code></data-trim>
     </Slide>
   )
 }
