@@ -13,7 +13,6 @@ function App () {
   }, [])
   return (
     <div className='App'>
-      {/* <div>你好！</div> */}
       <RevealJS
         width={1280}
         height={960}
