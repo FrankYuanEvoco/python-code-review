@@ -2,10 +2,35 @@ import { H1, P, Slide } from '@gregcello/revealjs-react'
 import React from 'react'
 
 const GitSegment = () => {
-  return <Slide autoAnimate={true}>
-    <H1>Git</H1>
-    <P></P>
-  </Slide>
+  return (
+    <>
+      <Slide>
+        <H1>Easy git</H1>
+        <pre data-id='Indent'>
+          <code
+            className='coding-style-code'
+            data-trim
+            data-line-numbers
+            dangerouslySetInnerHTML={{
+              __html: `
+              # get latest code
+              git pull
+              # create a new branch and start working on it
+              git checkout -b <BranchName> 
+              # save all changes
+              git add .
+              # commit your codes
+              git commit -m "commit message"
+              # push it to the server
+              git push
+              `
+            }}
+          />
+        </pre>
+      </Slide>
+      <Slide />
+    </>
+  )
 }
 
 export default GitSegment
