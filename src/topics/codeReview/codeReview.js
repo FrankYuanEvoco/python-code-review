@@ -136,6 +136,11 @@ gh pr create --base master
           />
         </pre>
       </Slide>
+      <Slide autoAnimate>
+        <H1>Github - create pull request</H1>
+        <P>you can now create a pull request</P><span> with website</span>
+        <Image width='100%' src='createPullRequest.png' />
+      </Slide>
     </>
   )
 }

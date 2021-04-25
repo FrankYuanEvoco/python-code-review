@@ -6,6 +6,7 @@ import GitSegment from './topics/git/git'
 import CodingStyle from './topics/codingStyle/codingStyle'
 import { useEffect } from 'react'
 import CodeReview from './topics/codeReview/codeReview'
+import ThankYou from './topics/welcome/thankYou'
 
 function App () {
   useEffect(() => {
@@ -22,6 +23,7 @@ function App () {
         <CodingStyle />
         <GitSegment />
         <CodeReview />
+        <ThankYou />
       </RevealJS>
     </div>
   )
