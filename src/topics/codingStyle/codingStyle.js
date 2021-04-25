@@ -1,4 +1,4 @@
-import { H1, Image, Li, Slide, Span, Ul, Ol, P } from '@gregcello/revealjs-react'
+import { H1, Image, Li, Slide, Span, Ol, P } from '@gregcello/revealjs-react'
 import React from 'react'
 import './codingStyle.css'
 
@@ -103,28 +103,19 @@ I_DON_T_KNOW_HOW_TO_EXPLAIN_IT = 'example'
       </Slide>
       <Slide>
         <H1>Code Style PEP8 - Imports</H1>
-        <pre data-id='Indent'>
-          <code
-            className='coding-style-code'
-            data-trim
-            data-line-numbers
-            dangerouslySetInnerHTML={{
-              __html: `
-              """
-              imports are always put at the top of the file, just after any 
-              module comments and docstrings, and before module globals and constants.
-
-              Imports should be grouped in the following order:
-              
-              Standard library imports.
-              Related third party imports.
-              Local application/library specific imports.
-              You should put a blank line between each group of imports.
-              """
-              `
-            }}
-          />
-        </pre>
+        <div className='coding-style-import-container'>
+          <P>
+            imports are always put at the top of the file, just after any module comments and docstrings, and before module globals and constants.
+          </P>
+          <P>Imports should be grouped in the following order:</P>
+          <Ol>
+            <Li>Standard library imports.</Li>
+            <Li>Related third party imports.</Li>
+            <Li>Local application/library specific imports.</Li>
+          </Ol>
+          <P>You should put a blank line between each group of imports.</P>
+          <P>--PEP8</P>
+        </div>
       </Slide>
     </>
   )

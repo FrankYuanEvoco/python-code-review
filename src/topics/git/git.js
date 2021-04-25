@@ -1,4 +1,4 @@
-import { H1, P, Slide } from '@gregcello/revealjs-react'
+import { H1, Slide } from '@gregcello/revealjs-react'
 import React from 'react'
 
 const GitSegment = () => {
@@ -16,7 +16,7 @@ const GitSegment = () => {
               # get latest code
               git pull
               # create a new branch and start working on it
-              git checkout -b <BranchName> 
+              git checkout -b [BranchName]
               # save all changes
               git add .
               # commit your codes
@@ -28,7 +28,6 @@ const GitSegment = () => {
           />
         </pre>
       </Slide>
-      <Slide />
     </>
   )
 }

@@ -19,3 +19,18 @@
 .coding-style-code {
     font-family: 'Courier New', Courier, monospace;
 }
+
+.coding-style-import-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.coding-style-import-container P {
+    text-align: left;
+}
+.coding-style-import-container li {
+    text-align: left;
+    padding-left: 16px;
+}
