@@ -2,14 +2,23 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# ATTENTION
+
+Please install [nodejs](https://nodejs.org/en/download/) and [yarn](https://yarnpkg.com/getting-started/install) before you start playing this project.
+for 
+
 ## Available Scripts
 
 In the project directory, you can run:
 
+### `npx serve ./build`
+
+runs the production build for you.
+
 ### `yarn start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser. (might also be [http://localhost:3000](http://localhost:3000) if port 3000 is already in use.)
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
